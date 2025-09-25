@@ -1,0 +1,165 @@
+
+
+
+body {
+  
+  background: #fefefe;
+  color: #333;
+  padding: 0px;
+  background-image: url(image333.jpeg);
+background-attachment: fixed;
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  padding: 10px;
+  color: #fff;
+  height: 50px;
+  font-size: 30px;
+  border: solid;
+ 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.box {
+  margin-left: 10px;
+  padding: 6px 12px;
+
+ 
+}
+
+.login {
+  background: #fff;
+  color: #021642;
+  font-size: 20px;
+}
+
+.signup {
+  background: #2196f3;
+  color: #fff;
+   font-size: 20px;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  
+}
+
+
+l{
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: aqua;
+}
+m{
+  font-size: 30px;
+  color: white;
+}
+
+.hero h2{
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.hero-img img {
+  width: 200px;
+  top: 10px;
+  position: sticky;
+  border-radius: 10px;
+ border: solid 3px;
+ color: yellow;
+ 
+}
+b{
+  color: #fefefe;
+  font-size: 50px;
+}
+
+.categories {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  background-color: #2196f3;
+}
+
+.category {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: aqua;
+}
+
+
+
+.category img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+
+.products {
+  padding: 40px 20px;
+  text-align: center;
+  
+
+}
+
+
+.product {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: solid;
+}
+
+
+
+.product img {
+  width: 60px;
+  margin-bottom: 10px;
+  
+  
+}
+footer{
+  background-color:#2196f3;
+  color:white;
+  height: 40px;
+  font-size: 30px;
+  
+}
